@@ -1,0 +1,42 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Random Number Script Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+    <script src="scripts/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <h1>JavaScript - Random Number Script Generator</h1>
+    <h3>Enter the minimum and maximum value to define the range of the Random Number</h3>
+    <hr>
+
+    <div>
+        <form autocomplete="off">
+            <label for="minvalue">Min:</label>
+            <input type="number" id="minvalue" autofocus>
+
+            <label for="maxvalue">Max:</label>
+            <input type="number" id="maxvalue">
+
+            <button onclick="generateScript()" type="button">Generate</button>
+
+            <label for="output">Output:</label>
+            <input type="text" id="output" readonly>
+
+            <hr>
+
+            <button type="button" onclick="testGeneratedScript()">Test Script</button>
+
+            <label for="testoutput">Test Output:</label>
+            <input type="text" id="testoutput" readonly>
+
+        </form>
+    </div>
+</body>
+
+</html>
